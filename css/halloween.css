@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    /* Box Model Fix */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: linear-gradient(#d18614, #1c0125);
+    height: 100vh;
+}
+
+.main-nav {
+    display: flex;
+}
