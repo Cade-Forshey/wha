@@ -11,6 +11,47 @@ body {
     height: 100vh;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    margin: 0;
+    font-size: 1.45em;
+    color: #fff;
+}
+
 .main-nav {
-    display: flex;
+    margin-top: 5px;
+}
+
+.logo a, 
+.main-nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.main-nav a {
+    color: #96e194;
+    font-size: .99em;
+}
+
+.main-nav a:hover {
+    color: #c844e9;
+}
+
+.header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid aqua;
+    background-color: rgba(0, 255, 255, 0.37);
+    box-shadow: 0px 0px 14px 0px(0, 0, 0, 0.75);
+    border-radius: 5px;
 }
